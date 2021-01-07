@@ -2,15 +2,16 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <title>Main Portfolio Page</title>
 
 </head>
 
+<!-- Body -->
 <body>
 
-    <!-- In line CSS for My Background Image -->
+<!-- In line CSS for My Background Image -->
     <style>
 
         body {
@@ -23,35 +24,36 @@
     
     </style>
     
-    <!-- Fixed Navbar at the top of Page -->
+<!-- Fixed Navbar at the top of Page -->
     <header>
 
-        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-            <a class="navbar-brand" href="#">Greg Harris</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="collapsibleNavbar">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link" href="#">About Me</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
-                </li>
-              </ul>
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+            <a class="navbar-brand">Greg Harris</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#aboutme">About</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#portfolio">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
             </div>
+              
         </nav>
 
-       
     </header>
     
+<!-- Main -->
     <main>
 
-        <div style="background:transparent" class="jumbotron" style="margin: auto;">
+        <div style="background:transparent" class="jumbotron" style="margin:auto;">
             <div class=" text-center">
                 <div class="row">
                     <div class="col-md-12">
@@ -72,50 +74,56 @@
 
     </main>
         
-    <aside>
-      <div class="container card border" style="margin-top:30px">
+<!-- About Me heading     -->
+    <section>
+        <article>
+            <div class="container card border" style="margin-top:30px">
         
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="text-uppercase">
-                        <div class="card-body">
-                            <h1>About Me</h1>
-                        </div>
-                    </div>  
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="text-uppercase">
+                            <div class="card-body">
+                                <h1>About Me</h1>
+                            </div>
+                        </div>  
+                    </div>
                 </div>
-            </div>
+        </article>
 
-        <div class="container" style="margin-top:30px">
-
-            <div class="row">
-                <div class="column-lg-9">
-                    <h2>My Story</h2>
-                        <p>Hello, my name is Greg Harris. I'm currently a student with the UW Bothell Coding Bootcamp. During this time 
-                        I live in Lynnwood and grew up in Bothell Washington. I spend most of my days working on bettering myself at
-                        what my passions. </p>
-                        
+<!-- My Story -->
+        <article id="aboutme">
+            <div class="container card border" style="margin-top:5px">
+                <div class="row" style="margin:30px">
+                    <div>
+                        <h2>My Story:</h2>
+                        <p>Hello, my name is Greg Harris. Over my life I grew up in Bothell, but during this time I live in 
+                                Lynnwood Washington. I'm currently a student with the UW Bothell Coding Bootcamp. I mostly spend 
+                                of my days working on bettering myself at what my passions. </p>
+                                
                         <p>Right now I'm trying to learn coding and web development, while I also continue practicing my 
-                        artwork and music. The rest of my free time is spent adventuring or with my family, and otherwise I can be 
-                        found working retail at the local QFC as a produce clerk.</p>
+                                artwork and music. The rest of my free time is spent adventuring or with my family, otherwise I can be 
+                                found working retail at the local QFC as a produce clerk.</p>
+                    </div>
                 </div>
 
-                <div class="column-lg-3">
-                    <div class="container">
-                        <img src="../Responsive-Portfolio/Images/gyrgyrhgrh 028.jpg" class="img-thumbnail" alt="My Picture">
+<!-- Main Image -->
+                <div class="row" style="margin:5px">
+                    <div>
+                        <div class="container">
+                            <img src="../Responsive-Portfolio/Images/gyrgyrhgrh 028.jpg" class="img-thumbnail" alt="My Picture">
+                        </div>
                     </div>
                 </div>
             </div>
-       
-        </div>
-       
-        </div>
-    </aside>
+        </article>
+
+    </section>
 
     <br>
 
-
+<!-- Footer -->
     <footer>
-        <div class="jumbotron text-center" style="margin-bottom:30px">
+        <div class="jumbotron text-center font-italic" style="margin-bottom:30px">
             <p>Website made by Greg Harris &#169; 2021</p>
           </div>
     </footer>
