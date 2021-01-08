@@ -6,7 +6,7 @@ Homework assignment for Week 2 of Coding Bootcamp!
 1) The Repository
 2) User Story
 3) Responsive Portfolio
-4) Webpage Examples
+4) Webpage Challenges
 5) Overall Conclusion
 
 # The Repository
@@ -21,12 +21,21 @@ Homework assignment for Week 2 of Coding Bootcamp!
 
 # Responsive Portfolio
 
-- While building this Responsive Portfolio I ran into a wall various times and came across many different hurtles that I had to work to figure out and/or overcome. Below I share some examples of what I struggled with most on each page. 
+- While building this Responsive Portfolio I ran into a wall various times and came across many different hurtles that I had to work to figure out and/or overcome. Below I share some examples of what I struggled with most on each page and where I need to improve. 
 
+# Webpage Challenges
 
 ## About Me:
+
 ## Photo Gallery:
+
 ## Contact:
+
+## HTML Validation Errors
+
+I ran out of time to go through these last errors in my code for the Responsive Portfolio webpage. I will spend some extra time going over these issues, correct them, and watch out for them in future!
+
+![HTML Validation Errors](https://user-images.githubusercontent.com/73864182/103987579-8faaed80-5141-11eb-8e7c-5ab437d05b41.png)
 
 
 # Overall Conclusion
