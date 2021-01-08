@@ -39,7 +39,7 @@ Homework assignment for Week 2 of Coding Bootcamp!
 
 ## HTML Validation Errors
 
-I ran out of time to go through these last errors in my code for the Responsive Portfolio webpage. I will spend some extra time going over these issues, correct them, and watch out for them in future!
+I ran out of time to go through these last errors in my code for the Responsive Portfolio webpage. I will spend some extra effort going over these issues, correct them, and watch out for them in future! Still need to practice using tools like html validation to better my code!
 
 ![HTML Validation Errors](https://user-images.githubusercontent.com/73864182/103987579-8faaed80-5141-11eb-8e7c-5ab437d05b41.png)
 
