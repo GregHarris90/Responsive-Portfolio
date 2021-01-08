@@ -11,13 +11,13 @@ Homework assignment for Week 2 of Coding Bootcamp!
 
 # The Repository
 
-- This repository is an introduction to who I am as a person. Where I share some brief information about myself, tell you what I'm passionate about, show some photos of my family, mention my future goals, and leave a contact page.
+- This repository is an introduction to who I am as a person. Where I share some brief information about myself, tell you what I'm passionate about, show some photos of my family/life, mention my future goals, and leave a contact page.
 
 - I wanted to create a Responsive Portfolio Website using Bootstrap v4.5, html, and some css that allows the user to learn about and/or contact me. While the webpage also retains it's function and displays properly regardless of the size or kind of web browser that's being used.
 
 # User Story
 
-- Anyone viewing my website will be able to read about me, see some pictures of my life, and gain some insight into who I am and where I want to go from here! The user should be able to easily navigate between three pages, the 'About Me,' 'Photo Gallery,' and ' Contact Page.' This portfolio will hopefully assist in the task of introducing myself, meet other like minded people, and share what I can while learning more about them.
+- Anyone viewing my website will be able to read about me and gain some insight into who I am and where I want to go from here! The user should be able to easily navigate between three pages, the 'About Me,' 'Photo Gallery,' and ' Contact Page.' This portfolio will hopefully assist in the task of introducing myself, meet other like minded people, and share what I can while learning more about them.
 
 # Responsive Portfolio
 
@@ -46,10 +46,10 @@ I ran out of time to go through these last errors in my code for the Responsive 
 
 # Overall Conclusion
 
- The Responsive Portfolio assignment taught me how to use Bootstrap v4.5 to structure multiple webpages, connect them to eachother, and create various elements with certain functions that are found throughout this project.
+ The Responsive Portfolio assignment taught me how to use Bootstrap v4.5 to structure multiple webpages, connect them to eachother, add images/links, and create various elements with certain functions that are found throughout this project.
  
- The greatest lesson from this assignment was learning how hard it is to build something from scratch. I know my instructor has called it the "blank-page" problem, and it truly was definitely difficult starting each page from nothing.
+ The greatest lesson from the assignment was learning how to build something from scratch and getting past this part of the process. I know my instructor has called it the "blank-page" problem, and at first it truly was difficult starting each page from nothing.
  
- But once I was able to get started the process became easier, while also more fun as it went along. My favorite part of this project was after laying down the foundation of each page and then being able to spend time bringing in images and playing with the text. 
+ But once I was able to get started everything became easier, while also more fun as it went along. My favorite part of this project was after laying down the foundation for each page and being able to spend time bringing in images and playing with the text/boxes. 
  
- Overall I know I need more practice working on the frontend of Web Design, but this project was a great exercise at getting me started and showing me how it all works!
+ Overall I know I need more practice working on the frontend of Web Design, organizing/cleaning up my html, and adding more detail to my README, but in general this project was a great exercise at getting me started and showing me how it all works!
