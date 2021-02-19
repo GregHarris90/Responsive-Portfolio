@@ -1,0 +1,19 @@
+#Portfolio {
+    color: white;
+    border-color: white;
+    border-width: 25px;
+    border-radius: 25px;
+}
+
+#Welcome {
+    border-color: white;
+    border-width: 25px;
+    border-radius: 25px;
+}
+
+#contactCard {
+    padding: 15px;
+    margin: 0 auto; 
+    float: none;
+    margin-top: 10px;
+}

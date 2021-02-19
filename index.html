@@ -2,57 +2,64 @@
 <html lang="en">
 
 <!-- Metadata/Bootstrap-Link/Title -->
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
     <title>Portfolio Page</title>
 
 </head>
 
 <!-- Body -->
+
 <body>
 
-<!-- In line CSS for My Background Image -->
+    <!-- In line CSS for My Background Image -->
     <style>
-
         body {
             background-image: url(../Responsive-Portfolio/Images/276.jpg);
             -webkit-background-size: cover;
             -moz-background-size: cover;
             background-size: cover;
             -o-background-size: cover;
-          }
-    
+        }
     </style>
-    
-<!-- Fixed Navbar at the top of Page -->
+
+    <!-- Fixed Navbar at the top of Page -->
     <header>
 
         <nav class="navbar navbar-expand-lg top-fixed bg-dark navbar-dark">
             <a class="navbar-brand">Greg Harris</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                      <a class="nav-link" href="#aboutme">About</a>
+                        <a class="nav-link" href="#aboutme">About</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="portfolio.html">Gallery</a>
+                        <a class="nav-link" href="projects.html">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Gallery</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="contact.html">Contact</a>
                     </li>
                 </ul>
             </div>
-              
+
         </nav>
 
     </header>
-    
-<!-- Main -->
+
+    <!-- Main -->
     <main>
 
         <div style="background:transparent" class="jumbotron" style="margin:auto;">
@@ -60,11 +67,12 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="p-3 mb-5 bg-white rounded">
-                            <h1 class="strong text-white bg-dark font-weight-bolder text-uppercase">My Portfolio</h1>
+                            <h1 class="bg-dark text-uppercase" id="Portfolio">My Portfolio
+                            </h1>
                         </div>
 
-                        <div class=" text-center"> 
-                            <div class="container p-3 my-3 bg-dark text-white">
+                        <div class=" text-center">
+                            <div class="container p-3 my-3 bg-dark text-white" id="Welcome">
                                 <h3 class="font-italic text-white font-weight-bolder">Welcome to my Webpage</h3>
                             </div>
                         </div>
@@ -75,79 +83,122 @@
         </div>
 
     </main>
-        
-<!-- About Me heading -->
+
+    <!-- About Me heading -->
     <section>
         <article>
             <div class="container card border" style="margin-top:30px">
-        
+
                 <div class="row">
                     <div class="col-sm">
                         <div class="text-uppercase">
                             <div class="card-body">
                                 <h1 class="text-primary">About Me:</h1>
                             </div>
-                        </div>  
+                        </div>
                     </div>
                 </div>
         </article>
 
-<!-- About Me Image/Story -->
+        <!-- About Me Image/Story -->
         <article id="aboutme">
             <div class="container card" style="margin-top:5px">
                 <div class="row" style="margin:15px">
 
                     <!-- Main Image -->
-                    <div class="col-sm-4" style="margin-bottom:15px">
+                    <div class="col-sm-4" style="margin-bottom:35px">
                         <div>
-                            <img src="../Responsive-Portfolio/Images/gyrgyrhgrh 028.jpg" class="img-thumbnail" alt="My Picture">
+                            <img src="../Responsive-Portfolio/Images/gyrgyrhgrh 028.jpg" class="img-thumbnail"
+                                alt="My Picture">
                         </div>
                     </div>
 
                     <!-- My Story -->
                     <div class="col-sm-8">
-                            <h2 style="margin-bottom:30px;">My Story</h2>
-                            <p>Hello, my name is Greg Harris. Most of my life I grew up in Bothell, but at this time I live in 
-                                    Lynnwood Washington. Also I'm currently a student with the UW Bothell Coding Bootcamp. I mostly spend 
-                                    my days bettering myself as a person and working hard on my passions.
-                            </p>
-                                    
-                            <p>Right now I'm trying to learn how to code and do web development, while I also continue practicing my 
-                                    artwork and music. The rest of my free time is spent adventuring or with my family, and otherwise I can be 
-                                    found working retail at the local QFC as a produce clerk.
-                            </p>
+                        <h2 style="margin-bottom:30px;">My Story</h2>
+                        <p>Hello, my name is Greg Harris. Most of my life I grew up in Bothell, but at this time I live
+                            in
+                            Lynnwood Washington. Also I'm currently a student with the UW Bothell Coding Bootcamp. I
+                            mostly spend
+                            my days bettering myself as a person and working hard on my passions.
+                        </p>
+
+                        <p>Right now I'm trying to learn how to code and do web development, while I also continue
+                            practicing my
+                            artwork and music. The rest of my free time is spent adventuring or with my family, and
+                            otherwise I can be
+                            found working retail at the local QFC as a produce clerk.
+                        </p>
                     </div>
 
                     <div class="col-md-12">
-                            <p>Looking to the future I hope to become a successful and competent programmer. Using these newly acquired skills 
-                                to build a career and slowly move away from my current job. Not that I don't love the people and community that 
-                                I've long been a part of and served, but the time has come in my life to move forward onto greater things!
-                            </p>
+                        <p>Looking to the future I hope to become a successful and competent programmer. Using these
+                            newly acquired skills
+                            to build a career and slowly move away from my current job. Not that I don't love the people
+                            and community that
+                            I've long been a part of and served, but the time has come in my life to move forward onto
+                            greater things!
+                        </p>
 
-                            <p class="text-primary font-italic">Thank you for checking
-                                out my portfolio and I hope to hear from you soon!
-                            </p>
-                            
+                        <p class="text-primary font-italic">Thank you for checking
+                            out my portfolio and I hope to hear from you soon!
+                        </p>
+
                     </div>
-    
+
                 </div>
             </div>
+        </article>
+
+        <article>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                        <div class="container card" id="contactCard">
+                            <h1 class="text-primary">Contact Me:</h1>
+                            <p>Name: Greg Harris</p>
+                            <p>Email: ghart.productions@gmail.com</p>
+                            <p>Phone: (206)***-****</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-5">
+                        <div class="container card" id="contactCard">
+                            <h1 class="text-primary">Profile Links:</h1>
+                            <a href="https://github.com/GregHarris90">GitHub Account</a>
+                            <br>
+                            <a href="https://www.linkedin.com/in/greg-harris-1753b61ba/">LinkedIN Account</a>
+                            <br>
+                            <a href="https://www.gregharrisart.com/">Artwork Portfolio</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
         </article>
 
     </section>
 
     <br>
 
-<!-- Footer -->
+    <!-- Footer -->
     <footer>
         <div class="jumbotron text-center font-italic" style="margin-bottom:30px">
             <p>Website made by Greg Harris &#169; 2021</p>
-          </div>
+        </div>
     </footer>
 
-<!-- Added jquery to make NavBar DropDown work properly -->
-   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <!-- Added jquery to make NavBar DropDown work properly -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
 
 </body>
+
 </html>
