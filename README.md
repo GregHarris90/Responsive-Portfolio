@@ -37,11 +37,11 @@ Homework assignment for Week 2 of Coding Bootcamp!
 
 - I had to spend sometime working on building the structure of this page as the 'Contact' box didn't quite work at first or appear the way it did in the provided example. After creating the appropriate text boxes, I had to spend a lot of time working on how this card operated on the webpage. I feel like I can still improve it's functionality if given more time.
 
-## HTML Validation Errors
+<!-- ## HTML Validation Errors
 
 I ran out of time to go through these last errors in my code for the Responsive Portfolio webpage. I will spend some extra effort going over these issues, correct them, and watch out for them in future! Still need to practice using tools like html validation to better my code!
 
-![HTML Validation Errors](https://user-images.githubusercontent.com/73864182/103987579-8faaed80-5141-11eb-8e7c-5ab437d05b41.png)
+![HTML Validation Errors](https://user-images.githubusercontent.com/73864182/103987579-8faaed80-5141-11eb-8e7c-5ab437d05b41.png) -->
 
 
 # Overall Conclusion
